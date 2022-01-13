@@ -1,0 +1,271 @@
+/* ===== Start global css ===== */
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    border: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.button {
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* ===== End global css ===== */
+
+/* ===== Start site header ===== */
+/* ===== Start site top header -- ===== */
+.site-top-header {
+    background-color: #f6f6f6;
+}
+
+.site-top-header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.site-logo-link {
+    padding:8px 6px;
+    border-radius: 7px;
+}
+
+.logo-price-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.price-container {
+    margin-left: 35px;
+}
+
+.value {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
+    padding-right: 5px;
+}
+
+.price {
+    color: #222;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.input-lang-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search > input {
+    border-radius: 60px;
+    border:none;
+    padding: 13px 41px;
+}
+
+.language {
+    background: #DCE6FF;
+    border-radius: 39px;
+    margin: 0 25px;
+   padding: 11px 13px 10px 3px;
+}
+
+.lang {
+    text-decoration: none;
+    color:#A6A6A6;
+}
+
+.active {
+    color: #000;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 8px;
+    padding: 7px;
+}
+
+.enter {
+    border: 1px solid #7296EC;
+    background-color: #7296EC;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.enter:hover {
+    border-color: #2959CE;
+    background-color: #fff;
+    color: #2959CE;
+}
+
+.enter:active {
+    background-color: #7296EC;
+    color: #fff;
+    opacity: 0.8;
+}
+/* ===== End site top header -- ===== */
+
+/* ===== Start site midle header -- ===== */
+/* .site-midle-header {
+    max-width: 1200px;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #d1d1d1;
+} */
+.sitenav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news-title {
+    margin-top: 0;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 34.4px;
+}
+
+.sitenav-link {
+    display: block;
+    color: #7F7F7F;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.sitenav-link:hover {
+    color: #000;
+}
+
+.sitenav-link:active {
+    opacity: 0.3;
+}
+
+.aside-section {
+    margin-bottom: 50px;
+}
+/* ===== End site midle header -- ===== */
+/* ===== End site header ===== */
+
+/* ===== Start site footer ===== */
+.site-footer {
+    background-color:  #7297EF;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.site-footer-container {
+    max-width: 998px;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.site-footer-logo-link {
+    text-decoration: none;
+}
+
+.site-footer-logo-link p:hover {
+    color: #006600;
+}
+
+.site-footer-logo-link p:active {
+    color: #006600;
+    opacity: 0.4;
+}
+
+.site-footer-logo {
+    width: 264px;
+    height: 28px;
+}
+
+.site-footer-logo p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 19px;
+    max-width: 229px;
+}
+
+.site-footer-about {
+    max-width: 229px;
+}
+
+.site-footer-list {
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+}
+.site-footer-item {
+    margin-bottom: 20px;
+}
+.site-footer-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.site-footer-link:hover {
+    color: #ff4500;
+}
+
+.site-footer-link:active {
+    color: #ff4500;
+    opacity: 0.7;
+}
+
+.social {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-info {
+    width: 161px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 25px;
+}
+/* ===== End site footer ===== */
